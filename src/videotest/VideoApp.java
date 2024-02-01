@@ -17,11 +17,13 @@ public class VideoApp {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    }
-    VideoGames v = new VideoGames ();
-    private String name = "game1";
-    v.setName(Name);
+        
+        VideoGames v = new VideoGames ();
+    String name = "game1";
+    v.setName(name);
     System.out.println("name: "+ v.getName());
+    }
+    
 
    
 
